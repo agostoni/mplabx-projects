@@ -15,7 +15,7 @@ void vegfokAktiv();
 void initApp(void) {
     //PORTA és PORTB konfigurálása dgitálisként
     ANSEL = 0;
-    //ANSELH = 0;
+    ANSELH = 0;
     registerListener(&PORTA,&TRISA,7,1,nyomogombMegnyomva);
     registerListener(&PORTA,&TRISA,2,1,vegfokAktiv);
     HEART_BEAT_TRIS = OUTPUT;
