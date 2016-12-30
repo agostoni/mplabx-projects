@@ -1,0 +1,6 @@
+build
+dist
+nbproject/*.mk
+nbproject/Makefile*
+nbproject/*.bash
+nbproject/private/private.xml
